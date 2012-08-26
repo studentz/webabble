@@ -1,0 +1,251 @@
+body{
+width: 60.69em;
+min-width: 800px;
+background-color: #FFFDEB;
+margin-left: auto;
+margin-right: auto;
+-moz-border-radius:1ex;
+-webkit-border-radius:1ex;
+-moz-box-shadow: 2px 2px 5px 5px rgba(100,67,8, 0.4);
+-webkit-box-shadow:  2px 2px 5px 5px rgba(100,67,8, 0.4);
+padding:8px;
+}
+
+#hd{
+margin: 3px 3px   11px  3px;
+background-image:url(../Images/brown5.png);
+position: relative;
+-moz-border-radius-topleft:1ex;
+-moz-border-radius-topright:1ex;
+-webkit-border-top-left-radius:1ex;
+-webkit-border-top-right-radius:1ex;
+-moz-box-shadow: 2px 2px 5px 2px rgba(100,67,8, 0.6) ;
+-webkit-box-shadow:2px 2px 5px 2px rgba(100,67,8, 0.6);
+border-style:solid;
+border-color:#2C0F08 ;
+border:thin solid;     
+}
+
+.title {
+text-align: center;
+}
+
+div.title > img {
+padding-top:25px;
+padding-bottom:25px;
+}
+
+.menu{
+width: 82%;
+float:right;
+position:relative;
+margin:5px;
+-moz-user-focus: normal;
+-moz-user-select: none;
+-moz-border-radius:1ex;  
+-moz-box-shadow:
+	0            0px     	0px       0px         rgba(111,83,50, 0.5) inset,
+	0			 4px     	6px       2px         rgba(255, 255, 255, 0.5) inset,
+	0pt          11px    	0         4px         rgba(255, 255, 255, 0.5) inset,
+	-11px        0   	 	0         -3px        rgba(255, 255, 255, 0.4) inset,
+	-12px        0   	 	0         -2px        rgba(111,83,50, 0.9) inset,
+	0pt          1px     	1px                   rgba(111,83,50, 0.3) inset,
+	1pt          1px     	5px       2px         rgba(111,83,50, 0.2);
+-webkit-border-radius:1ex;
+-webkit-box-shadow: 
+	0px           0px     	0px       0px         rgba(111,83,50, 0.5) inset,
+	0			 4px     	6px       2px         rgba(255, 255, 255, 0.5) inset,
+	0pt          11px    	0         4px         rgba(255, 255, 255, 0.5) inset,
+	-11px        0   	 	0         -3px        rgba(255, 255, 255, 0.4) inset,
+	-12px        0   	 	0         -2px        rgba(111,83,50, 0.9) inset,
+	0pt          1px     	1px                   rgba(111,83,50, 0.3) inset,
+	1pt          1px     	5px       2px         rgba(111,83,50, 0.2);	 
+}
+.navlist{
+padding: 0;
+margin: auto;
+width: 95%;
+font-size: 0.82em;
+}
+
+.navlist li{
+display: block;
+float: left;
+width: 15%;
+margin: 0;
+padding: 0;
+}
+
+.navlist li a{
+display: block;
+text-align:center;
+padding: 0.5em;
+border-width: 1px;
+border-color: #ffe #aaab9c #ccc #fff;
+border-style: solid;
+color: #44180D;
+text-decoration: none;
+background: #FFFDEB;
+width: auto; 
+}
+
+.navlist li.active a{
+background: #FFFDEB ;
+color:#2C0F08;
+text-shadow: 1px 1px 1px #875310;
+font-weight: bold;
+}
+
+.navlist li a:hover,.navlist li.active a:hover{
+color:#fdfcf3;
+background: transparent;
+border-color: #aaab9c #fff #fff #ccc;
+font-weight: bold;
+}
+#bd {
+margin: 3px 3px   11px  3px;
+}
+
+#ft{
+margin:3px  3px  3px  3px;
+background-image:url(../Images/brown5.png);
+-moz-border-radius-bottomleft:1ex;
+-moz-border-radius-bottomright:1ex;
+-webkit-border-bottom-left-radius:1ex;
+-webkit-border-bottom-right-radius:1ex;
+-moz-box-shadow: 1px 1px 5px 2px rgba(100,67,8, 0.6) ;
+-webkit-box-shadow:  1px 1px 5px 2px rgba(100,67,8, 0.6);
+border-style:  solid;
+border-color:#2C0F08 ; 
+border:thin solid;
+text-align:center;   
+}
+
+#sidebar{
+position: relative;
+float: left;
+width: 17%;
+margin-right: 7px;
+border:thin solid #2C0F08;
+-moz-box-shadow:    2px     2px     5px 3px rgba(100,67,8, 0.6);
+-webkit-box-shadow: 2px     2px     5px 3px rgba(100,67,8, 0.6);
+background-image:url(../Images/one2.png) ;
+background-repeat: repeat;
+height:241px;
+clip: rect(10px, 0px, 0px, 0px);
+}
+  
+#appdiv {
+position: relative;
+float: left;
+width: 81.8%;
+border:thin  solid #2C0F08;
+background-image:url(../Images/one2.png)   ; 
+-moz-box-shadow: 2px 2px 5px 2px rgba(100,67,8, 0.6) ;
+-webkit-box-shadow:  2px 2px 5px 2px rgba(100,67,8, 0.6) ;
+} 
+
+.row-div{
+margin-top:10px;
+}
+
+.column-div {
+width: 29%;
+margin-left: 3px;
+float: left;
+}
+  
+.first-column {
+width:39%;
+}
+
+
+
+.buttonI,.yesbuttonzy, .nobuttonzy, .buttoncc {
+margin: 0px 0px 0px 5px;
+-moz-user-focus: normal;
+-moz-user-select: none;
+-moz-border-radius:1ex;
+-webkit-border-radius:1ex;
+-webkit-box-shadow: #E2B784 1px 2px 5px ;
+-moz-box-shadow:
+	0       0px     2px     0px 	rgba(255,255,255, 0.4) inset,
+	0       1px     6px         	rgba(255, 255, 255, 0.4) inset,
+	0pt     4px     0   	-2px    rgba(255, 255, 255, 0.2) inset,
+   -11px    0   	0   	-2px    rgba(255, 255, 255, 0.2) inset,
+   -12px    0   	0   	-2px    rgba(111,83,50, 0.3) inset,
+	0pt     4px     8px         	rgba(111,83,50, 0.3) inset,
+	1pt     1px     5px     0px 	rgba(111,83,50, 0.2);
+
+cursor:pointer;
+color:#6e3333;
+font-size:12px;
+text-align:center;
+text-shadow: .4px .4px .4px #875310;
+background-image: url(../Images/nine.png);
+}
+
+.buttonI:hover, .yesbuttonzy:hover, .nobuttonzy:hover, .buttoncc:hover {
+
+background-image: url(../Images/six.png);
+-moz-border-radius:1ex;
+-webkit-border-radius:1ex;
+-webkit-box-shadow: #644308 1px 2px 5px ;
+-moz-box-shadow:
+	0        0       2px         	rgba(255, 255, 255, 0.4) inset,
+	0        1px     6px         	rgba(255, 255, 255, 0.4) inset,
+	0pt      4px     0   	-2px    rgba(255, 255, 255, 0.2) inset,
+	-11px    0       0   	-2px    rgba(255, 255, 255, 0.2) inset,
+	-12px    0       0   	-2px    rgba(111,83,50, 0.6) inset,
+	0pt      13px    8px         	rgba(111,83,50, 0.3) inset,
+	0        0       30px        	rgba(111,83,50, 0.3) inset,
+	0pt      1px     0px        	rgba(111,83,50, 0.2);
+line-height:10px;
+color:#6e3333;
+font-size:12px;
+text-shadow: 1px 1px 1px #875310; 
+font-weight:bold;
+}
+
+.buttonI:active, .yesbuttonzy:active, .nobuttonzy:active, .buttoncc:active {
+  -moz-box-shadow:
+	0pt  	0pt     2px      2px     rgba(243,215,171, .9) inset,
+	0    	0       2px              rgba(255, 255, 255, 0.3) inset,
+	0    	1px     6px              rgba(255, 255, 255, 0.3) inset,
+	0pt  	4px     0       -2px     rgba(255, 255, 255, 0.2) inset,
+	-21px 	0       0       -2px     rgba(255, 255, 255, 0.2) inset,
+	-22px 	0       0       -2px     rgba(111,83,50, 0.2) inset,
+	0pt  	13px    8px              rgba(111,83,50, 0.3) inset,
+	0pt  	0pt     4px      2px     rgb(243,215,171),
+	0pt  	0pt     4px      2px     rgba(243,215,171, 0.2),
+	0pt  	1px     0px      10px    rgba(215,188,146, 0.3);
+border-color: rgba(130, 94, 17, .9);
+}
+
+.buttonI:focus, .yesbuttonzy:focus, .nobuttonzy:focus, .buttoncc:focus {
+  -moz-box-shadow:
+	0pt  	0pt     2px     0px     	rgba(243, 215, 171, 1) inset,
+	0    	0   	2px         		rgba(255, 255, 255, 0.4) inset,
+	0    	4px     6px         		rgba(255, 255, 255, 0.3) inset,
+	0pt  	11px    0   	-2px    	rgba(255, 255, 255, 0.2) inset,
+	-21px 	0  		0   	-2px    	rgba(255, 255, 255, 0.2) inset,
+	-22px 	0  		0   	-2px    	rgba(111, 83,  50, 0.6) inset,
+	0pt  	13px    8px         		gba(111, 83,  50, 0.3) inset,
+	0    	0   	30px        		rgba(111, 83,  50, 0.2) inset,
+	0pt  	0pt 	4px     10px    	rgba(243, 215, 171, 0.1)inset,
+	0pt  	0pt     4px     10px    	rgba(243, 215, 171, 0.3)inset,
+	0pt  	1px     0px             	rgba(111, 83,  50,  0.2);
+}
+
+/* @group Clearing */
+#hd:after, #bd:after, #ft:after ,#sidebar:after,#appdiv:after,.row-div:after,.first-column:after,.column-div:after,.title:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+
+#hd, #bd, #ft,.row-div {
+ /*   zoom: 1; */
+}

@@ -1,0 +1,133 @@
+@import url("reset.css");
+@import url("base.css");
+@import url("common.css");
+
+.column-div{
+width: 24%;
+text-align:center;
+min-height:276px;  
+ }
+
+#search-div > a, #search-div +div+div.dictionary-div > a{
+color:#44180D;
+text-decoration:none;
+font-family:Georgia,"Times New Roman",Serif;
+}
+
+#search-div > a:hover, #search-div +div+div.dictionary-div>a:hover{
+color:#44180D;
+text-decoration:underline;
+}
+
+#search-subdiv .search-text{
+background:#faf5ea ;
+-moz-border-radius:1.8ex;
+-webkit-border-radius:1.8ex;
+font-family: verdana,helvetica,sans-serif;
+text-indent: 6px;
+border: 1px solid #D1BD9B;
+color:#000000;
+font-size: 12px;
+text-align:left;
+margin-top:4px;
+margin-left:5px;
+margin-bottom:5px;
+vertical-align:middle;
+width: 150px;
+height:18px;
+display:block;
+}
+
+#FindCC{
+display:block;
+margin-bottom: 10px;
+}
+
+.dictionary-select{
+background:#faf5ea ;
+border:1px solid #D1BD9B;
+color:#000000;
+font-family:verdana,helvetica,sans-serif;
+font-size:13px;
+vertical-align:middle;
+overflow: scroll;
+}
+
+
+ .chicharcontainer{
+width: 60%;
+float:left;
+}
+
+.chinesechar {
+font-weight:bold;
+font-size: 70px;
+color: #000000;
+text-align: center;
+margin: 0px 0px 10px 0px;
+border-style: none;
+width: 90%;
+background-color:transparent;  
+}
+
+.bupomorfocontainer{ 
+ float:right;
+ width: 40%;
+  }
+  
+.bupomorfo{
+  font-weight: bold;
+  font-size: 20px;
+  color: #000000;
+  text-align: center;
+  border-style: none;
+  vertical-align: middle;
+  margin: 3px 3px 3px 3px;
+  background-color:transparent;
+}
+
+.rounded  {
+ background-image: url(../Images/four.png);
+  /*    opacity: 0.7; */
+  border-color:#2C0F08 ;
+  border-width:thin;
+  -moz-border-radius:1ex;
+  -webkit-border-radius:1ex;
+  margin-right: 10px;
+  margin-top:5px;
+ text-align:center;
+
+}
+
+.SelectedWord{
+background-color:#faf2da;
+margin: 5px 0px 5px 0px;
+border-style:none;
+overflow:visible;
+}
+.TogDivA, .TogDivB{
+/* background-color: red; */
+height: 25px;
+margin-bottom: 5px;
+background-image:url(../Images/brown5.png);
+border-color:#2C0F08 ;
+border-width:thin;
+ -moz-border-radius:1ex;
+ -webkit-border-radius:1ex;
+}
+
+.TogImgA, .TogImgB {
+ float:right;
+ margin: 0px 3px 5px 0px;
+ cursor:pointer;
+}
+
+.col:after, .inputtext:after, .dictionary-select:after, .search-div:after, .dictionary-div:after, #FindCC:after, #characters-div:after, 
+.chicharcontainer:after, .chinesechar:after, .bupomorfocontainer:after, .bupomorfo:after, .SelectedWord:after,.TogDiv:after, .TogImg:after, .imageHouse:after, 
+.chioutput:after {
+ content: ".";
+ display: block;
+ height: 0;
+ clear: both;
+ visibility: hidden;
+ }

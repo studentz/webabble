@@ -1,0 +1,109 @@
+@import url("reset.css");
+@import url("common.css");
+.login {
+   float:left;
+   width:50%;
+}
+.register{
+    float:right;
+    width:50%;
+}
+
+.inputtext    {
+    background:#faf5ea ;
+    -moz-border-radius:1.8ex;
+    -webkit-border-radius:1.8ex;
+    font-family: verdana,helvetica,sans-serif;
+    border: 1px solid #D1BD9B;
+    color:#000000;
+    font-size: 11px;
+    text-align:left;
+    margin-top:4px;
+    margin-left:5px;
+    margin-bottom:5px;
+    vertical-align:middle;
+    width: 165px;
+    height:18px;
+    text-indent: 6px;
+}
+.rounded2{
+  background-image: url(../Images/four.png) ;
+  /*    opacity: 0.7; */
+  border-color:#2C0F08 ;
+  border-width:thin;
+  -moz-border-radius:1ex;
+  -webkit-border-radius:1ex;
+   margin: 10px ;
+   padding:10px;
+  /* text-align:center;*/
+  color:#2C0F08;
+  border:solid;
+
+}
+#reg{
+    margin-bottom: 10px;
+}
+.rsbutton{
+    text-align:right;
+    margin-top: 13px;
+    
+}
+.labnInput{
+   /* background-color:red; */
+    position:relative;
+
+}
+.rstitle{
+  text-align:center;
+  margin-bottom: 15px;
+  font-weight:bolder;
+  font-size:20px;
+}
+
+.labels{
+    float:left;
+    padding-top: 6px;
+    vertical-align: middle;
+}
+
+.inputs{
+    float:right;
+    
+}
+#sigcb{
+    float:left;
+ }
+ #labelcb{
+     margin-top:10px;
+     margin-bottom:8px;
+ }
+ .resendpass{
+      margin-top:10px;
+     margin-bottom:8px;
+ }
+.resendpass a{
+   color:#44180D;
+   text-decoration:none;
+   font-family:Georgia,"Times New Roman",Serif;
+ 
+}
+.resendpass a:hover{
+   color:#44180D;
+   text-decoration:underline; 
+   }
+
+   #sidebar{
+    height:284px;
+  }
+ #signin{
+	margin-bottom:16px;
+}
+
+.login:after, .rounded2:after, .rsbutton:after, .rstitle:after, .rslabel:after, .register:after, .labnInput:after, .inputtext:after,  .labels:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+

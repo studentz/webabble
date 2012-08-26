@@ -1,0 +1,240 @@
+
+.EnWord
+{
+margin: 5px 0px 10px 5px;
+border-style:solid;
+border-width:medium;
+border-color:#ABABCD;
+color:#DC2727;
+}
+.buttonD
+{
+margin: 0px 0px 0px 5px;
+background:#C5C5E5;
+padding:0px 6px;
+border:1px solid #686897;
+height:24px;
+line-height:24px;
+color:#004a61;
+font-size:12px;
+display:inline-block;
+text-decoration:none;
+}
+.buttonDO
+{
+margin: 0px 0px 0px 5px;
+background:#CDCDE5;
+padding:0px 6px;
+border:1px solid #515184;
+height:24px;
+line-height:24px;
+color:#004a61;
+font-size:12px;
+font-weight:bold;
+display:inline-block;
+text-decoration:none;
+}
+
+.buttonI
+{
+margin: 0px 0px 0px 5px;
+background:#E5E5E5;
+padding:0px 6px;
+border:1px solid #00116B;
+height:24px;
+line-height:24px;
+color:#1B3841;
+font-size:12px;
+
+display:inline-block;
+text-decoration:none;
+}
+.buttonIO
+{
+margin: 0px 0px 0px 5px;
+background:#E5E5E5;
+padding:0px 6px;
+border:1px solid #7BB0E4;
+height:24px;
+line-height:24px;
+color:#004a61;
+font-size:12px;
+font-weight:bold;
+display:inline-block;
+text-decoration:none;
+}
+
+
+
+
+
+
+.ImageWord
+{
+margin: 10px 0px 0px 10px;
+
+}
+.AudioWord
+{
+margin: 10px 0px 0px 10px;
+}
+
+#ChineseCharOutput
+{
+background-color :#CCC8B3;
+border : 0;
+position: relative;
+overflow: hidden;
+height:400px;
+}
+.ChineseWords
+{
+background-color : #D9D5E3;
+margin: 5px 0px 0px 8px;
+border-style: none;
+}
+
+.chicharcointainer
+{
+  float: left;
+/*
+  background-color: blue;
+*/
+  margin: 0px 0px 0px 0px;
+  position: relative;
+  width: 37%;
+}
+.bupomorfocontainer
+{
+  float: right;
+  margin-left: 0em;
+  margin: 0px 3px 3px 0px;
+/*
+  background-color: #F0E68C;  /*yellow*/
+
+  position: relative;
+
+  width: 42%;
+
+
+
+
+}
+
+.MainCointainer
+{
+background-color: #AFEEEE;
+margin: auto;
+clear: both;
+position: relative;
+;
+}
+.chinesechar {
+overflow: hidden;
+font-weight:bold;
+position:relative;
+width: 80px;
+font-size: 70px;
+color: #000000;
+text-align: center; 
+ margin: 3px 3px 10px 5px; 
+border-style: none;
+background-color:#CCC8B3;
+}
+
+.bupomorfo { 
+overflow: hidden;
+font-weight: bold;
+position:relative;
+width: 30px;
+font-size: 15px;
+color: #000000;
+text-align: center; 
+ margin: 3px 3px 3px 3px; 
+border-style: none;
+ background-color:#CCC8B3;
+  }
+#Mytesting
+{
+position: relative;
+
+}
+.audioplayer2
+{
+margin: 10px 3px 3px 3px;
+}
+#audioplayer
+{
+margin: 10px 3px 3px 3px;
+
+}
+
+
+.linkToIndex a , .AllWords a,.serachdiv a{
+   color:#004a61;
+   text-decoration:none;
+   margin: 3px 3px 3px 8px;	
+   font-size: 120%;
+   font-family:Georgia,"Times New Roman",Serif;
+}
+.linkToIndex a:hover, .AllWords a:hover, .serachdiv a:hover{
+   color:#004a61;
+   text-decoration:underline;
+   margin: 3px 3px 3px 8px;
+   }
+ .AllWordsQuestion77
+ {
+ display: none;
+ }
+  
+ .AllWordsQuestionSelect   
+{
+border: 1px solid #7F9DB9;
+background-color: #DBD7FD;
+color: #004a61;
+text-decoration:none;
+margin: 2px 2px 2px 8px;
+padding: 4px 1px 0px 2px;
+font: Geneva,Verdana, Arial,Helvetica,Sans-Serif;
+
+
+}
+ .AllWordsQuestionSelect selection:hover{
+ color:#004a61;
+ text-decoration:underline;
+ 
+ }
+/*
+ background-color: #FFF;
+
+color: #000;
+height: 22px;
+border:1px solid #3b6e22;
+margin: 0px;
+*/
+input.file {
+	position: relative;
+        text-align: right;
+	-moz-opacity:0 ;
+	filter:alpha(opacity: 0);   
+       	opacity:0;
+	z-index: 2;
+}
+div.fileinputs {
+	position: relative;
+
+}
+div.fakefile {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+div.fakefile input {
+padding-top:0px;
+margin-top:0px;
+margin-left:8px;
+font-size:13px;
+
+}
+
